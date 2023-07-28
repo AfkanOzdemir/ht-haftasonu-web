@@ -3,8 +3,8 @@ import Image from "next/image";
 import Link from "next/link";
 const Navbar = () => {
   return (
-    <navbar className="z-50">
-      <div className="w-full h-[20vh] flex items-center justify-between top-0 px-8">
+    <navbar className="w-full absolute z-50">
+      <div className="w-full h-44 flex items-center justify-between top-0 px-8">
         <div className="relative w-full h-full">
           <div className="w-64 h-full bg-white p-3 pl-8 rounded-b-full flex items-center justify-center absolute -top-10 -left-20">
             <Link href="/">

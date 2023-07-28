@@ -8,9 +8,8 @@ import Api from "@/api/data.json";
 import Link from "next/link";
 const page = () => {
   return (
-    <div className="w-full h-auto flex items-center justify-center px-5 relative z-10">
-      <div className="w-full h-full absolute -z-50 after:absolute after:w-[400px] after:h-[400px] sm:after:w-[700px] sm:after:h-[700px] lg:after:w-[600px] lg:after:h-[600px] after:bg-cover after:bottom-0 lg:after:-bottom-[25rem]
-    after:right-0 after:my-auto after:left-0 after:top-0 lg:after:left-auto lg:after:top-auto after:mx-auto lg:after:my-0 lg:after:mx-0 lg:after:-right-60 after:-z-10 after:bg-[url('/images/bg-image.svg')] after:content-[''] after:bg-center"/>
+    <div className="w-full h-full overflow-hidden flex items-center justify-center px-5 relative z-10 after:absolute after:w-4/5 after:h-[400px] sm:after:w-[700px] sm:after:h-[700px] lg:after:w-[600px] lg:after:h-[600px] after:bg-cover after:bottom-0 lg:after:-bottom-[25rem]
+    after:right-0 after:my-auto after:left-0 after:top-0 lg:after:left-auto lg:after:top-auto after:mx-auto lg:after:my-0 lg:after:mx-0 lg:after:-right-60 after:-z-10 after:bg-[url('/images/bg-image.svg')] after:content-[''] after:bg-center">
       <Swiper
         slidesPerView={"auto"}
         spaceBetween={30}
@@ -29,7 +28,7 @@ const page = () => {
                 before:content-[''] before:w-12 before:h-[2px] before:bg-secondary before:absolute before:bottom-1/2 before:-left-[2rem] before:z-10
                 after:content-[''] after:w-12 after:h-[2px] after:bg-secondary after:absolute after:bottom-1/2 after:-right-[2rem] after:z-10
                 ">
-                  <img src={item.images}/>
+                  <img src={item.images} />
                   <div className="w-full h-full flex items-start justify-center mt-8">
                     <div
                       className={`w-full h-full flex items-center flex-col ${item.type === 0 ? "justify-around" : "justify-center"
@@ -49,10 +48,7 @@ const page = () => {
                       <span className="text-sm font-Poppins text-center">
                         {item.date}
                       </span>
-                      <Link
-                        href="/"
-                        className="px-5 py-2 border-[2px] border-black font-light rounded-full"
-                      >
+                      <Link href="/" className="px-5 py-2 border-[2px] border-black font-light rounded-full">
                         GÖRÜNTÜLE
                       </Link>
                     </div>

@@ -12,7 +12,9 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className="bg-primary w-full h-screen overflow-hidden">
         <Navbar />
-        <div className="w-full h-[75vh] flex items-center justify-center relative">{children}</div>
+        <div className="w-full h-screen flex items-center justify-center relative">
+          {children}
+        </div>
         <Footer />
       </body>
     </html>
