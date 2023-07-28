@@ -1,0 +1,75 @@
+[
+  {
+    "id": 1,
+    "type": 0,
+    "name": "FUAR",
+    "header": "Lorem Ipsum is simply dummy text of the printing and typesetting.",
+    "content": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.",
+    "images": "/images/1x1/3.png",
+    "date": "06.03.2017 - 22:30"
+  },
+  {
+    "id": 2,
+    "type": 1,
+    "name": "SERGİ",
+    "header": "Lorem Ipsum is simply dummy text of the printing",
+    "content": "",
+    "images": "/images/9x16/2.png",
+    "date": ""
+  },
+  {
+    "id": 3,
+    "type": 2,
+    "name": "FUAR",
+    "header": "Lorem Ipsum is simply dummy text of the printing",
+    "content": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.",
+    "images": [],
+    "date": "06.03.2017 - 22:30"
+  },
+  {
+    "id": 4,
+    "type": 3,
+    "name": "REKLAM",
+    "header": "",
+    "content": "",
+    "images": ["/images/1x1/1.png", "/images/1x1/2.png"],
+    "date": ""
+  },
+  {
+    "id": 5,
+    "type": 4,
+    "name": "SERGİ",
+    "header": "Lorem Ipsum is simply dummy text of the printing",
+    "content": "",
+    "images": "/images/16x9/1.png",
+    "date": ""
+  },
+  {
+    "id": 6,
+    "type": 0,
+    "name": "FUAR",
+    "header": "Lorem Ipsum is simply dummy text of the printing and typesetting.",
+    "content": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.",
+    "images": "/images/1x1/4.png",
+    "date": "06.03.2017 - 22:30"
+  },
+  {
+    "id": 7,
+    "type": 6,
+    "name": "SERGİ",
+    "header": "Lorem Ipsum is simply dummy text of the printing",
+    "content": "",
+    "images": "/images/9x16/2.png",
+    "date": ""
+  },
+  {
+    "id" : 8,
+    "type": 5,
+    "name": "REKLAM",
+    "header": "",
+    "content": "",
+    "images": ["/images/1x1/1.png"],
+    "date": ""
+  }
+
+]
