@@ -3,10 +3,10 @@ import Image from "next/image";
 import Link from "next/link";
 const Navbar = () => {
   return (
-    <navbar className="w-full absolute z-50">
-      <div className="w-full h-44 flex items-center justify-between top-0 px-8">
+    <navbar className="w-full h-40 absolute z-50 overflow-hidden">
+      <div className="w-full h-full flex items-center justify-between top-0 px-8">
         <div className="relative w-full h-full">
-          <div className="w-64 h-full bg-white p-3 pl-8 rounded-b-full flex items-center justify-center absolute -top-10 -left-20">
+          <div className="w-64 h-full bg-white pl-7 pt-3 rounded-b-full flex items-center justify-center absolute -top-10 -left-20">
             <Link href="/">
               <Image
                 src="/images/logo/ht-haftasonu-black.svg"

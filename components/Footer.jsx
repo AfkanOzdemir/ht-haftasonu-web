@@ -3,7 +3,7 @@ import React from "react";
 const Footer = () => {
   return (
     <footer
-      className="w-full h-[5vh] px-8 flex items-center absolute bottom-0
+      className="w-full h-[5vh] px-8 flex items-center absolute bottom-0 z-50
       justify-center lg:justify-between font-Poppins font-semibold text-xs text-black text-center">
       <span className="flex items-center justify-center ">
         Copyright © 2020 - Tüm hakları saklıdır. Habertürk Gazetecilik A.Ş.
